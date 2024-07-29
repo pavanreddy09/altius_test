@@ -1,0 +1,48 @@
+.form-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+}
+
+form {
+  width: 500px;
+  background-color: grey;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+form h1 {
+  color: white;
+  text-align: center;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  margin-bottom: 15px;
+}
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+label {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+.button-div button {
+  padding: 12px;
+
+  background-color: rgb(60, 60, 248);
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
